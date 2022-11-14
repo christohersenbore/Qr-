@@ -40,3 +40,45 @@ p{
     color: hsl(0, 0%, 60%);
     margin-top: -7px;
 }
+
+/*Mediaquery Part*/
+
+@media only screen and (max-width: 768px) {
+    .Box{
+        position: absolute;
+        display: flex;
+        /*width: auto;*/
+        top: 20%;
+        left: -47px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 10px 10px 100px 100px;
+        background-color: hsl(0, 0%, 100%);
+        max-width: 300px;
+        text-align: center;
+        border-radius: 15px;
+        padding: 10px 10px 10px 10px;
+    }
+    .img{
+        width: 270;
+        height: 270px;
+        border-radius: 15px;
+    }
+    h4{
+        font-family: "outfit";
+        justify-content: center;
+        font-weight: 500;
+        font-size: 20px;
+        margin-top: 13px;
+    }
+    p{
+        font-family: "outfit";
+        justify-content: center;
+        font-weight: 200;
+        font-size: 15px;
+        color: hsl(0, 0%, 60%);
+        margin-top: -7px;
+    }
+    
+}
